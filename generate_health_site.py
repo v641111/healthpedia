@@ -132,12 +132,12 @@ def head(title, desc, path, lang='en'):
 {FONTS}
 <style>{CSS}</style>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5SM4C40JY2"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PLLR9YHTZ0"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){{dataLayer.push(arguments);}}
   gtag('js', new Date());
-  gtag('config', 'G-5SM4C40JY2');
+  gtag('config', 'G-PLLR9YHTZ0');
 </script>
 </head><body>'''
 
