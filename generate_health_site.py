@@ -130,7 +130,16 @@ def head(title, desc, path, lang='en'):
 <meta property="og:url" content="{DOMAIN}{path}"><meta property="og:type" content="website"><meta property="og:site_name" content="{SITE_NAME}">
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc[:160])}">
 {FONTS}
-<style>{CSS}</style></head><body>'''
+<style>{CSS}</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5SM4C40JY2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', 'G-5SM4C40JY2');
+</script>
+</head><body>'''
 
 def page(filepath, content):
     d = os.path.dirname(filepath)
